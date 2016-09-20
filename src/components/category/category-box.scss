@@ -1,0 +1,14 @@
+.cover{
+  overflow: hidden;
+}
+.imgCover{
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+.categoryBox{
+  border:1px solid #dddddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
