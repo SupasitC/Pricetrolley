@@ -1,0 +1,29 @@
+.cover{
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.imgCover{
+  object-fit: cover;
+  width: 80px;
+  height: 30px;
+}
+.price{
+  display: inline-block;
+}
+.priceBlock{
+  .cover{
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  .imgCover{
+    object-fit: cover;
+    width: 80px;
+    height: 30px;
+  }
+  .price{
+    display: inline-block;
+  }
+  h3{
+    margin: 0;
+  }
+}
