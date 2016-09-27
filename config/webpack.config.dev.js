@@ -61,10 +61,10 @@ module.exports = {
     module: {
         loaders: [
             { test: /\.js$/, exclude: /node_modules/, loaders: ['react-hot', 'babel'] },
-            { test: /\.css$/, loader: "style!css-loader?sourceMap&modules&localIdentName=[local]___[hash:base64:5]" },
+            { test: /\.css$/, loader: "style!css-loader?sourceMap&modules&localIdentName=[local]" },
             { test: /\.css\?global$/, loader: "style!css-loader?sourceMap&modules&localIdentName=[local]" },
             { test: /\.json$/, loader: 'json' },
-            { test: /\.scss$/, loader: 'style!css?modules&sourceMap&localIdentName=[local]___[hash:base64:5]!sass?outputStyle=expanded' },
+            { test: /\.scss$/, loader: 'style!css?modules&sourceMap&localIdentName=[local]!sass?outputStyle=expanded' },
             { test: /\.less$/, loader: "style-loader!css-loader!less-loader" },
             { test: /\.woff(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=application/font-woff" },
             { test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=application/font-woff" },
